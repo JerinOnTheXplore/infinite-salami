@@ -18,6 +18,6 @@ document.getElementById('add-money-btn').addEventListener('click', function(even
         }
     }
     else{
-        alert('Your account number is invalid');
+        alert('Please fill up the form properly to get salami');
     }
 })
