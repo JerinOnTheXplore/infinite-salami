@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to infinite salami</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script src="https://kit.fontawesome.com/2e1c9e3d59.js" crossorigin="anonymous"></script>
+<style>
+  html{
+    scroll-behavior: smooth;
+  }
+</style>
+</head>
+<body class="bg-slate-700">
+    <section class="bg-gray-200 max-w-md min-h-screen px-16 mx-auto">
+    <header>
+        <nav>
+            <div></div>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+        <!-- banner content -->
+         <div id="scroll" class="mb-12 pt-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <div><img src="assets/Group.png" alt=""></div>
+                <div>
+                    <h3 class="text-4xl text-sky-800 font-bold ">$ <span id="main-balance">0</span></h3>
+                    <p class="text-cyan-900 text-lg font-extrabold ">Available Balance</p>
+                </div>
+            </div>
+            <div class="text-center text-cyan-900"><pre class="text-2xl font-semibold ">Log out</pre><i class="fa-solid  fa-right-from-bracket"></i></div>
+         </div>
+
+    </header>
+    <main>
+       <section class="mb-10">
+        <h1 class="text-3xl text-cyan-800 font-semibold">One last step! Complete the form with care for a quick and easy process.</h1>
+        <div id="salami">
+            <h2 class="text-2xl text-cyan-600 mt-5">মনের সালামি ই আসল 🥱
+            </h2>
+            <h2 class="text-2xl text-cyan-600 mt-5">Sobaike Eid Mubarak 🌙🎁
+            </h2>
+        </div>
+        
+       </section>
+       
+       <section class="bg-gray-200 max-w-md min-h-screen  mx-auto mt-10 ">
+        <section  id="money-add" class="">
+            <p class="text-3xl font-bold  text-stone-600"></p>
+        <div class="hero bg-base-200 mt-10 ">
+            
+            <div class="card  w-full max-w-sm shrink-0 shadow-2xl">
+              <div class="">
+                <legend class="cursor-pointer hover:bg-blue-900 hover:text-white p-4">Select a bank</legend>
+                <select class="select">
+                    <option disabled selected>Select Bank</option>
+                    <option>Bkash</option>
+                    
+                    <option>Rocket</option>
+                  </select>
+                  <div class="w-full mb-16 rounded-3xl">
+                    <div class="card  w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                          <fieldset class="fieldset ">
+                            <label class="fieldset-label text-slate-950 text-xl mb-4">Mobile Number</label>
+                            <input  id="account-number"  type="number" class="input mb-4 rounded-2xl" placeholder="Enter your number" required />
+                            <label class="fieldset-label text-slate-950 text-xl mb-4">Amount</label>
+                            <input id="amount"  type="number" class="input mb-4 rounded-2xl" placeholder="Type your amount" required />
+                            <label class="fieldset-label text-slate-950 text-xl mb-4">4 Digit Pin</label>
+                            <input id="pin" type="number" class="input mb-8 rounded-2xl" placeholder="Enter 4 Digit Pin" required />
+                            <button id="add-money-btn" class="btn  text-blue-600
+                            border-blue-500
+                             text-lg font-semibold rounded-2xl ">Grab Your Salami</button>
+                          </fieldset>
+                        </form>
+                      </div>
+                    </div>
+               </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+    </main>
+    <script src="script/addmoney.js"></script>
+    <script src="script/toggle.js"></script>
+    <script src="script/scroll.js"></script>
+</body>
+</html>
